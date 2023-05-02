@@ -1,6 +1,6 @@
 <script>
     export default{
-        name: "AppTitle",
+        name: "AppHero",
         data() {
             return {
                
@@ -10,11 +10,15 @@
 </script>
 
 <template>
-  <h1>
-    Hello World 
-  </h1>
+    <div>
+       <img src="../assets/vue.svg" alt=""> 
+    </div>
   
 </template>
 
 <style scoped>
+    div{
+        display: flex;
+        justify-content: center;
+    }
 </style>
