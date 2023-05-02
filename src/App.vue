@@ -1,19 +1,12 @@
-<script>
+<script setup>
 import AppTitle from './components/AppTitle.vue'
-export default{
-  name: "App",
-  components: {
-    AppTitle,
-    
-  }
-}
 </script>
 
 <template>
   <div>
-    
+    <AppTitle/>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  
 </template>
 
 <style scoped>

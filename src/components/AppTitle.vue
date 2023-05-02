@@ -1,22 +1,15 @@
-<script>
+<script setup>
+  import { ref } from 'vue'
 
-  export default{
-    name: "AppTitle",
-    data() {
-        return {
-            
-        }
-    }
-}
-
+  
 </script>
 
 <template>
   <div>
-    Hello World!
+    Hello World
   </div>
+  
 </template>
 
 <style scoped>
-
 </style>
